@@ -1,0 +1,33 @@
+.main-page{
+    align-items: center;
+    display: grid; 
+    margin-left: 25px;
+    grid-template-columns: repeat(2, 0.5fr);
+    column-gap: 5px; 
+}
+
+.page-left{
+    height: auto;
+    background-color: rgb(254, 235,208); 
+}
+
+.header{
+    display: flex;
+    margin-left: 25px;
+}
+
+.logo{
+    max-width: 25%; 
+}
+
+.welcome{
+    text-align: left;
+    margin-left: 25px; 
+    font-size: 25px;
+}
+
+.icon{
+    max-width: 90%; 
+    padding-top: 100px; 
+    padding-bottom: 150px; 
+}
